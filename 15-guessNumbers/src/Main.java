@@ -8,17 +8,21 @@ public class Main {
         Random random = new Random();
         int randNumber = random.nextInt(100);
         System.out.println("Die gesuchte Zahl ist zwischen 1...100");
-        int guessNumber;
-        boolean isGameOver = false;
 
-        while (isGameOver == false) {
-            System.out.println("Deine Zahl: ");
-            guessNumber = scanner.nextInt();
-            isGameOver = checkNumbers(randNumber, guessNumber);
+        int tries = playGame(randNumber);
+        System.out.println("Die Zahl stimmt! Du hast total " + tries + " Versuche benötigt. Noch einmal spielen? [y/n]");
+
+        String answer;
+        answer = scanner.nextLine();
+        if (answer.equalsIgnoreCase("y")) {
+            playGame(randNumber);
+        }
+        if (answer.equalsIgnoreCase("n")) {
+            System.out.println();
         }
     }
-    static Boolean checkNumbers(int randNumber, int guessNumber) {
 
+    static Boolean checkNumbers(int randNumber, int guessNumber) {
         if (guessNumber == randNumber) {
             System.out.println("Richtig");
             return true;
@@ -31,5 +35,20 @@ public class Main {
         }
 
         return false;
+    }
+
+    static int playGame (int randNumber) {
+       Scanner scanner = new Scanner(System.in);
+       int tries = 0;
+       boolean isGameOver = false;
+       int guessNumber = 0;
+
+        while (isGameOver == false) {
+            tries++;
+            System.out.println("Deine Zahl: ");
+            guessNumber = scanner.nextInt();
+            isGameOver = checkNumbers(randNumber, guessNumber);
+        }
+        return tries;
     }
 }
