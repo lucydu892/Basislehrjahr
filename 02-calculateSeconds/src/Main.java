@@ -12,15 +12,14 @@ public class Main {
             String input = in.readLine();
             int days = Integer.parseInt(input);
 
-            if (days > 28); {
-                System.out.println("Gib eine Zahl zwischen 28 und 31 Tagen ein.");
+            if (days >= 28 && days <= 31) {
+                int seconds = days * 24 * 60 * 60;  // Calculate seconds
+                System.out.println("Der Monat hat " + seconds + " Sekunden.");
+            } else {
+                System.out.println("Bitte geben Sie eine Zahl zwischen 28 und 31 ein.");
             }
-            if (days < 32); {
-                System.out.println("Gib eine Zahl zwischen 28 und 31 Tagen ein.");
-            }
-            System.out.println("Ihre Eingabe " + (days) + " ist gültig.");
-            int seconds = days * 24 * 60 * 60;
-            System.out.println("Ein Monat mit " + days + " Tagen" + " hat " + seconds);
+
+
         } catch (NumberFormatException ex) {
             System.out.println("Eingabefehler. Bitte geben Sie eine Zahl ein.");
         } catch (Exception ex) {

@@ -4,6 +4,19 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/01-Addierer/01-Addierer.iml" filepath="$PROJECT_DIR$/01-Addierer/01-Addierer.iml" />
       <module fileurl="file://$PROJECT_DIR$/02-calculateSeconds/02-calculateSeconds.iml" filepath="$PROJECT_DIR$/02-calculateSeconds/02-calculateSeconds.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-Flussdiagramm/03-Flussdiagramm.iml" filepath="$PROJECT_DIR$/03-Flussdiagramm/03-Flussdiagramm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-Monatsname/04-Monatsname.iml" filepath="$PROJECT_DIR$/04-Monatsname/04-Monatsname.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-Flussdiagramm2.0/05-Flussdiagramm2.0.iml" filepath="$PROJECT_DIR$/05-Flussdiagramm2.0/05-Flussdiagramm2.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06-1x1/06-1x1.iml" filepath="$PROJECT_DIR$/06-1x1/06-1x1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07-Division/07-Division.iml" filepath="$PROJECT_DIR$/07-Division/07-Division.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07-Divison/07-Divison.iml" filepath="$PROJECT_DIR$/07-Divison/07-Divison.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08-Binaerzahlen/08-Binaerzahlen.iml" filepath="$PROJECT_DIR$/08-Binaerzahlen/08-Binaerzahlen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09-Quersumme/09-Quersumme.iml" filepath="$PROJECT_DIR$/09-Quersumme/09-Quersumme.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10-Quersumme2.0/10-Quersumme2.0.iml" filepath="$PROJECT_DIR$/10-Quersumme2.0/10-Quersumme2.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11-Diagonale_Line/11-Diagonale_Line.iml" filepath="$PROJECT_DIR$/11-Diagonale_Line/11-Diagonale_Line.iml" />
+      <module fileurl="file://$PROJECT_DIR$/12-Schleifen/12-Schleifen.iml" filepath="$PROJECT_DIR$/12-Schleifen/12-Schleifen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/13-Schaltjahr/13-Schaltjahr.iml" filepath="$PROJECT_DIR$/13-Schaltjahr/13-Schaltjahr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/14-Tannenbaum/14-Tannenbaum.iml" filepath="$PROJECT_DIR$/14-Tannenbaum/14-Tannenbaum.iml" />
       <module fileurl="file://$PROJECT_DIR$/Aufgabensammlung.iml" filepath="$PROJECT_DIR$/Aufgabensammlung.iml" />
       <module fileurl="file://$PROJECT_DIR$/HelloWorld/HelloWorld.iml" filepath="$PROJECT_DIR$/HelloWorld/HelloWorld.iml" />
     </modules>
