@@ -7,21 +7,29 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
         int randNumber = random.nextInt(100);
-        System.out.println(randNumber);
         System.out.println("Die gesuchte Zahl ist zwischen 1...100");
-        int guessNumber = scanner.nextInt();
-        checkNumbers(randNumber, guessNumber);
+        int guessNumber;
+        boolean isGameOver = false;
 
+        while (isGameOver == false) {
+            System.out.println("Deine Zahl: ");
+            guessNumber = scanner.nextInt();
+            isGameOver = checkNumbers(randNumber, guessNumber);
+        }
     }
-    static void checkNumbers (int randNumber, int guessNumber) {
+    static Boolean checkNumbers(int randNumber, int guessNumber) {
+
         if (guessNumber == randNumber) {
             System.out.println("Richtig");
-        } if (guessNumber < randNumber){
-            System.out.println("Zu klein");
-        } if (guessNumber > randNumber) {
-            System.out.println("Zu gross");
-        } else {
-            System.out.println();
+            return true;
         }
+        if (guessNumber < randNumber) {
+            System.out.println("Zu klein");
+        }
+        if (guessNumber > randNumber) {
+            System.out.println("Zu gross");
+        }
+
+        return false;
     }
 }
