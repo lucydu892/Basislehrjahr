@@ -22,6 +22,7 @@
       <module fileurl="file://$PROJECT_DIR$/18-Alter/18-Alter.iml" filepath="$PROJECT_DIR$/18-Alter/18-Alter.iml" />
       <module fileurl="file://$PROJECT_DIR$/Aufgabensammlung.iml" filepath="$PROJECT_DIR$/Aufgabensammlung.iml" />
       <module fileurl="file://$PROJECT_DIR$/HelloWorld/HelloWorld.iml" filepath="$PROJECT_DIR$/HelloWorld/HelloWorld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
     </modules>
   </component>
 </project>

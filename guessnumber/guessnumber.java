@@ -1,7 +1,9 @@
+package guessnumber;
+
 import java.util.Scanner;
 import java.util.Random;
 
-public class Main {
+public class guessnumber {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
@@ -37,10 +39,10 @@ public class Main {
     }
 
     static int playGame (int randNumber) {
-       Scanner scanner = new Scanner(System.in);
-       int tries = 0;
-       boolean isGameOver = false;
-       int guessNumber = 0;
+        Scanner scanner = new Scanner(System.in);
+        int tries = 0;
+        boolean isGameOver = false;
+        int guessNumber = 0;
 
         while (isGameOver == false) {
             tries++;

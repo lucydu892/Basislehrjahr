@@ -1,17 +1,22 @@
 import java.util.Scanner;
+import java.time.LocalDate;
 
 public class Main {
+
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+/*Scanner scanner = new Scanner(System.in);
         System.out.println("Bitte gib ein Geburstdatum ein: ");
-        String dateOfBirth = "19,09,1971";
-        splitString(dateOfBirth);
+        int input = scanner.nextInt();
+        LocalDate birthDate = LocalDate.of(input);
+        LocalDate currentDate = LocalDate.now();
+        calculateAge(birthDate, currentDate); */
+
     }
-    static String[]splitString (String dateOfBirth) {
-        String [] splited = dateOfBirth.split(",",3);
-        for (String y : splited) {
-            System.out.println(y);
-        }
-        return splited;
-    }
+    /*
+    static int calculateAge(LocalDate birthDate, LocalDate currentDate) {
+      int age = currentDate - birthDate;
+       int age = currentDate - birthDate;
+
+        return age;
+    }*/
 }
